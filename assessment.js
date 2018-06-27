@@ -95,7 +95,6 @@ function computeUserAverageAge(users) {
 
   return Math.round(users.reduce((acc, obj) => acc + obj.age, 0) / users.length);
   }
-
 module.exports = {
  helloWorld,
  lambdaSchool,
