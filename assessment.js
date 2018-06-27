@@ -93,9 +93,16 @@ function longestString(strs) {
 
 function computeUserAverageAge(users) {
 
-  return Math.round(users.reduce((acc, obj) => acc + obj.age, 0) / users.length);
-  }
-  
+let num = 0;
+
+for (i=0; i<users.length; i++)
+{
+  num += users[i]['age'];
+};
+let average = Math.round(num/users.length);
+return average;
+}
+
 module.exports = {
  helloWorld,
  lambdaSchool,
