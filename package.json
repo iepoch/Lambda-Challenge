@@ -1,7 +1,7 @@
 {
   "name": "precourse-assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "If you have not yet filled out the form at https://lambdaschool.com/web-challenge/ please do that before submitting your pull request.",
   "main": "index.js",
   "scripts": {
     "test": "jest assessment.test.js",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/LambdaSchool/Precourse-Assessment#readme",
   "dependencies": {
     "jest": "^22.4.2"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
